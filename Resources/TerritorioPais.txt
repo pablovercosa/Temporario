@@ -1,0 +1,245 @@
+Afeganistão	132
+Albânia, República da	175
+Alemanha	230
+Burkina Faso	310
+Andorra	370
+Angola	400
+Anguilla	418
+Antigua e Barbuda	434
+Antilhas Holandesas	477
+Arábia Saudita	531
+Argélia	590
+Argentina	639
+Armênia, República da	647
+Aruba	655
+Austrália	698
+Áustria	728
+Azerbaijão, República do	736
+Bahamas, Ilhas	779
+Bahrein, Ilhas	809
+Bangladesh	817
+Barbados	833
+Belarus	850
+Bélgica	876
+Belize	884
+Bermudas	906
+Mianmar (Birmânia)	930
+Bolívia	973
+Bósnia-Herzegovina	981
+Botsuana	1015
+Brasil	1058
+Brunei	1082
+Bulgária, República da	1112
+Burundi	1155
+Butão	1198
+Cabo Verde, República de	1279
+Cayman, Ilhas	1376
+Camboja	1414
+Camarões	1457
+Canadá	1490
+Canal, Ilhas do (Jersey e Guernsey)	1504
+Canárias, Ilhas	1511
+Cazaquistão, República do	1538
+Catar	1546
+Chile	1589
+China, República Popular da	1600
+Formosa (Taiwan)	1619
+Chipre	1635
+Cocos (Keeling), Ilhas	1651
+Colômbia	1694
+Comores, Ilhas	1732
+Congo, República do	1775
+Cook, Ilhas	1830
+Coréia, Rep. Pop. Democrática da	1872
+Coréia, República da	1902
+Costa do Marfim	1937
+Croácia, República da	1953
+Costa Rica	1961
+Coveite	1988
+Cuba	1996
+Benin	2291
+Dinamarca	2321
+Dominica, Ilha	2356
+Equador	2399
+Egito	2402
+Eritréia	2437
+Emirados Árabes Unidos	2445
+Espanha	2453
+Eslovênia, República da	2461
+Eslovaca, República	2470
+Estados Unidos	2496
+Estônia, República da	2518
+Etiópia	2534
+Falkland (Ilhas Malvinas)	2550
+Feroe, Ilhas	2593
+Filipinas	2674
+Finlândia	2712
+França	2755
+Gabão	2810
+Gâmbia	2852
+Gana	2895
+Geórgia, República da	2917
+Gibraltar	2933
+Granada	2976
+Grécia	3018
+Groenlândia	3050
+Guadalupe	3093
+Guam	3131
+Guatemala	3174
+Guiana Francesa	3255
+Guiné	3298
+Guiné-Equatorial	3310
+Guiné-Bissau	3344
+Guiana	3379
+Haiti	3417
+Honduras	3450
+Hong Kong, Região Adm. Especial	3514
+Hungria, República da	3557
+Iêmen	3573
+Man, Ilhas	3595
+Índia	3611
+Indonésia	3654
+Iraque	3697
+Irã, República Islâmica do	3727
+Irlanda	3751
+Islândia	3794
+Israel	3832
+Itália	3867
+Iugoslávia, República Fed. da	3883
+Jamaica	3913
+Johnston, Ilhas	3964
+Japão	3999
+Jordânia	4030
+Kiribati	4111
+Laos, Rep. Pop. Democrática do	4200
+Lebuan	4235
+Lesoto	4260
+Letônia, República da	4278
+Líbano	4316
+Libéria	4340
+Líbia	4383
+Liechtenstein	4405
+Lituânia, República da	4421
+Luxemburgo	4456
+Macau	4472
+Macedônia	4499
+Madagascar	4502
+Madeira, Ilha da	4525
+Malásia	4553
+Malavi	4588
+Maldivas	4618
+Máli	4642
+Malta	4677
+Marianas do Norte	4723
+Marrocos	4740
+Marshall, Ilhas	4766
+Martinica	4774
+Maurício	4855
+Mauritânia	4880
+Midway, Ilhas	4901
+México	4936
+Moldávia, República da	4944
+Mônaco	4952
+Mongólia	4979
+Micronésia	4995
+Montserrat, Ilhas	5010
+Moçambique	5053
+Namíbia	5070
+Nauru	5088
+Christmas, Ilha (Navidad)	5118
+Nepal	5177
+Nicarágua	5215
+Niger	5258
+Nigéria	5282
+Niue, Ilha	5312
+Norfolk, Ilha	5355
+Noruega	5380
+Nova Caledônia	5428
+Papua Nova Guiné	5452
+Nova Zelândia	5487
+Vanuatu	5517
+Omã	5568
+Holanda (Países Baixos)	5738
+Países Baixos (Holanda)	5738
+Palau	5754
+Paquistão	5762
+Panamá	5800
+Paraguai	5860
+Peru	5894
+Pitcairn, Ilha	5932
+Polinésia Francesa	5991
+Polônia, República da	6033
+Portugal	6076
+Porto Rico	6114
+Quênia	6238
+Quirguiz, República	6254
+Escócia	6289
+Gales, País de	6289
+Grã-Bretanha	6289
+Inglaterra	6289
+Irlanda do Norte	6289
+Reino Unido	6289
+República Centro-Africana	6408
+República Dominicana	6475
+Reunião, Ilha	6602
+Zimbábue	6653
+Romênia	6700
+Ruanda	6750
+Rússia	6769
+Salomão, Ilhas	6777
+Saara Ocidental	6858
+El Salvador	6874
+Samoa	6904
+Samoa Americana	6912
+São Cristóvão e Neves	6955
+San Marino	6971
+São Pedro e Miquelon	7005
+São Vicente e Granadinas	7056
+Santa Helena	7102
+Santa Lúcia	7153
+São Tomé e Príncipe, Ilhas	7200
+Senegal	7285
+Seychelles	7315
+Serra Leoa	7358
+Cingapura	7412
+Síria, República Árabe da	7447
+Somália	7480
+Sri Lanka	7501
+Suazilândia	7544
+África do Sul	7560
+Sudão	7595
+Suécia	7641
+Suíça	7676
+Suriname	7706
+Tadjiquistão	7722
+Tailândia	7765
+Tanzânia, República Unida da	7803
+Território Britânico Oc. Índico	7820
+Djibuti	7838
+Chade	7889
+Tcheca, República	7919
+Timor Leste	7951
+Togo	8001
+Toquelau, Ilhas	8052
+Tonga	8109
+Trinidad e Tobago	8150
+Tunísia	8206
+Turcas e Caicos, Ilhas	8230
+Turcomenistão, República do	8249
+Turquia	8273
+Tuvalu	8281
+Ucrânia	8311
+Uganda	8338
+Uruguai	8451
+Uzbequistão, República do	8478
+Vaticano, Estado da Cidade do	8486
+Venezuela	8508
+Vietnã	8583
+Virgens, Ilhas (Britânicas)	8630
+Virgens, Ilhas (E.U.A.)	8664
+Fiji	8702
+Wake, Ilha	8737
+Wallis e Futuna, Ilhas	8753
+Congo, República Democrática do	8885
+Zâmbia	8907
+Zona do Canal do Panamá	8958

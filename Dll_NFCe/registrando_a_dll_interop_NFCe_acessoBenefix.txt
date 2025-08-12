@@ -1,0 +1,11 @@
+
+C:\Projetos\Dll_NFCe>c:\windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe DllEmissorNFCe.dll /tlb:DllEmissorNFCe /codebase
+
+
+
+Registrar a DLL em C# Interop Com+ pelo REGASM
+
+Exemplo: 
+     No prompt de comando, vc digita: REGASM sua_dll /TLB:sua_dll.tlb /codebase.
+
+     Desta forma, cria-se a TLB, que é utilizada no VB6. 

@@ -1,0 +1,77 @@
+http://52.54.144.133:8090/geralapi/api/acao/validarLicenca
+http://www1.webenefix.com.br/Nfe_G6/nfeiservice.asmx?WSDL
+https://www1.webenefix.com.br/Nfe_G6/nfeiservice.asmx
+https://www1.webenefix.com.br/Nfe_G6/GetDanfe.aspx?NomeDanfe=
+http://www1.webenefix.com.br/nfe_g6/NFCeService.svc?singlewsdl
+http://www1.webenefix.com.br/nfe_g6/NFCeService.svc
+3
+14755088000166
+1
+1
+01020652000150_2
+2
+1
+01020652000150_3
+1
+2
+
+--------------
+MODELO
+--------------
+linha1...licenca           			: http://52.54.144.133:8090/geralapi/api/acao/validarLicenca
+
+Homolog
+linha2...	NFe  MSSoapInit        			: http://homolog.aclti.com.br/nfev5/nfeiservice.asmx?WSDL
+linha3...	NFe  ConnectorProperty 			: http://homolog.aclti.com.br/nfev5/nfeiservice.asmx
+linha4...	NFe  Endereço Caminho download da Danfe	: http://homolog.aclti.com.br/nfev5/GetDanfe.aspx?NomeDanfe=
+linha5...	NFCe MSSoapInit
+linha6...	NFCe ConnectorProperty
+
+	Download Danfe (exemplo homolog)
+	http://homolog.aclti.com.br/nfev5/GetDanfe.aspx?NomeDanfe=nfe_41180804152403000107550010000055991459682647_102735.pdf
+
+Prod
+linha2...MSSoapInit                             : http://www1.webenefix.com.br/Nfe_G6/nfeiservice.asmx?WSDL
+linha3...ConnectorProperty                      : http://www1.webenefix.com.br/Nfe_G6/nfeiservice.asmx
+linha4...Endereço Caminho download da Danfe	: http://www1.webenefix.com.br/Nfe_G6/GetDanfe.aspx?NomeDanfe=
+
+
+
+linha7...Numero de CNPJ tratados neste arquivo (para o campo 'Serie' da NF)
+	Ex:
+		linha7...	1
+		linha8...	01701201000189		CNPJ
+		linha9...	2			NrSerie-NFe	do CNPJ 01701201000189
+		linha10...	2			NrSerie-NFCe	do CNPJ 01701201000189
+
+		linha7...	2
+		linha8...	01701201000189		CNPJ
+		linha9...	2			NrSerie-NFe		
+		linha10...	2			NrSerie-NFCe
+		linha11...	99999999999999		CNPJ
+		linha12...	1			NrSerie-NFe	do CNPJ 99999999999999	
+		linha13...	1			NrSerie-NFCe	do CNPJ 99999999999999	
+
+
+		
+		linha7...	0
+		não precisa incluir demais linhas...8, 9, 10    etc
+
+Exemplo completo
+
+http://52.54.144.133:8090/geralapi/api/acao/validarLicenca
+http://homolog.e-benefix.com.br/nfev10/nfeiservice.asmx?WSDL
+http://homolog.e-benefix.com.br/nfev10/nfeiservice.asmx
+http://homolog.e-benefix.com.br/nfev10/GetDanfe.aspx?NomeDanfe=
+http://homolog.e-benefix.com.br/NFev10/NFceservice.svc?singlewsdl
+http://homolog.e-benefix.com.br/NFev10/NFCeService.svc
+3
+04152403000107
+1
+1
+01020652000150
+1
+1
+05638489000145
+2
+2

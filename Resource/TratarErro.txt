@@ -1,0 +1,98 @@
+'Variáveis de Tratamento de Erro
+Dim nRepeatUpdate3022 As Integer
+Dim nRepeatUpdateLocked As Integer
+dim bSequencia As Boolean
+
+Modelo 1:
+
+ErrHandler:
+  Screen.MousePointer = vbDefault
+  Call StatusMsg("")
+  Select Case frmErro.gnShowErr(Err.Number, "")
+    Case 0 'Repetir
+      Resume
+    Case 1 'Prosseguir
+      Resume Next
+    Case 2 'Sair
+      Exit Sub
+    Case 3 'Encerrar
+      End
+  End Select
+
+
+Modelo 2:
+
+ErrHandler:
+  Screen.MousePointer = vbDefault
+  Call StatusMsg("")
+  Select Case Err.Number
+    Case 3186, 3197, 3218, 3260 'Registro bloqueado
+      If nRepeatUpdateLocked < 30 Then
+        nRepeatUpdateLocked = nRepeatUpdateLocked + 1
+        Call StatusMsg("Aguardando registro bloqueado (" & Err.Number & ")...")
+        Call WaitSeconds(1) 'Aguarda um segundo
+        Resume
+      Else
+        If MsgBox("Há no momento registros sendo atualizados no sistema por outra estação." & _
+          " É necessário aguardar por um instante e continuar. Clique em 'OK' para " & _
+          "uma nova tentativa.", vbExclamation + vbOKCancel, "Efetiva Saída") = vbOK Then
+          nRepeatUpdateLocked = 0
+          Resume
+        End If
+      End If
+    Case Else
+      'Outros Erros
+      Select Case frmErro.gnShowErr(Err.Number, "Efetiva Saída")
+        Case 0 'Repetir
+          Resume
+        Case 1 'Prosseguir
+          Resume Next
+        Case 2 'Sair
+          Exit Sub
+        Case 3 'Encerrar
+          End
+      End Select
+  End Select
+
+
+Modelo 3:
+
+ErrHandler:
+  Screen.MousePointer = vbDefault
+  Call StatusMsg("")
+  Select Case Err.Number
+    Case 3022 And bSequencia 'Duplicidade de movimentação
+      If nRepeatUpdate3022 < 1000 Then
+        nRepeatUpdate3022 = nRepeatUpdate3022 + 1
+        nSequencia = nSequencia + 1
+        rsSaidas("Sequência") = nSequencia
+        Call StatusMsg("Verificando registro...")
+        Resume
+      End If
+    Case 3186, 3197, 3218, 3260 'Registro bloqueado
+      If nRepeatUpdateLocked < 30 Then
+        nRepeatUpdateLocked = nRepeatUpdateLocked + 1
+        Call StatusMsg("Aguardando registro bloqueado (" & Err.Number & ")...")
+        Call WaitSeconds(1) 'Aguarda um segundo
+        Resume
+      Else
+        If MsgBox("Há no momento registros sendo atualizados no sistema por outra estação." & _
+          " É necessário aguardar por um instante e continuar. Clique em 'OK' para " & _
+          "uma nova tentativa.", vbExclamation + vbOKCancel, "Venda Fiscal - Gravar") = vbOK Then
+          nRepeatUpdateLocked = 0
+          Resume
+        End If
+      End If
+    Case Else
+      'Outros Erros
+      Select Case frmErro.gnShowErr(Err.Number, "Venda Fiscal - Gravar")
+        Case 0 'Repetir
+          Resume
+        Case 1 'Prosseguir
+          Resume Next
+        Case 2 'Sair
+          Exit Sub
+        Case 3 'Encerrar
+          End
+      End Select
+  End Select

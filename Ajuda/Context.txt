@@ -1,0 +1,10 @@
+.topic 20000
+Limpe os Dados Obrigatórios inicialmente, Pressione o botão de Pesquisa. Depois,  Marque os Itens para Baixar, Preencha os Dados Obrigatórios da Baixa e Pressione o Botão de Baixa.
+
+.topic 20010
+Ativa/Desativa o rotacionamento do gráfico mediante o uso da tecla CTRL e do arraste do mouse.
+
+.topic 20020
+Clique num dos pontos do gráfico para observar detalhes do ponto.
+
+

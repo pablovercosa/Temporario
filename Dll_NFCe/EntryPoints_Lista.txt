@@ -1,0 +1,80 @@
+Microsoft (R) COFF/PE Dumper Version 11.00.61030.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file NfceInterface.dll
+
+File Type: DLL
+
+  Section contains the following exports for NfceInterface.dll
+
+    00000000 characteristics
+    5619AF9C time date stamp Sat Oct 10 21:38:52 2015
+        0.00 version
+           1 ordinal base
+          52 number of functions
+          52 number of names
+
+    ordinal hint RVA      name
+
+          8    0 00018A4E AutorizarByRef
+         34    1 00018BEE AutorizarByRefOle
+         33    2 00018BDE AutorizarOle_Xml
+          7    3 00018A3E Autorizar_Xml
+         10    4 00018A6E CancelarByRef
+         36    5 00018C0E CancelarByRefOle
+         35    6 00018BFE CancelarOle_Xml
+          9    7 00018A5E Cancelar_Xml
+          6    8 00018A2E DecodificarHtml
+         32    9 00018BCE DecodificarHtmlOle
+         29    A 00018B9E EchoDataByRefOle
+          3    B 000189FE EchoDataNativeOnlyByRef
+          2    C 000189EE EchoFromCore
+         28    D 00018B8E EchoFromCoreOle
+          1    E 000189DE EchoFromInterface
+         27    F 00018B7E EchoFromInterfaceOle
+         17   10 00018ADE GetDoc
+         43   11 00018C7E GetDocOle
+         20   12 00018B0E GetProtocoloAutorizacao
+         46   13 00018CAE GetProtocoloAutorizacaoOle
+         22   14 00018B2E GetProtocolos
+         48   15 00018CCE GetProtocolosOle
+         21   16 00018B1E GetPrototoloCancelamento
+         47   17 00018CBE GetPrototoloCancelamentoOle
+         26   18 00018B6E GetStatusLocalByRef
+         52   19 00018D0E GetStatusLocalByRefOle
+         51   1A 00018CFE GetStatusLocalOle_Xml
+         25   1B 00018B5E GetStatusLocal_Xml
+         14   1C 00018AAE GetStatusPorChaveByRef
+         40   1D 00018C4E GetStatusPorChaveByRefOle
+         39   1E 00018C3E GetStatusPorChaveOle_Xml
+         13   1F 00018A9E GetStatusPorChave_Xml
+         16   20 00018ACE GetStatusPorOidByRef
+         42   21 00018C6E GetStatusPorOidByRefOle
+         41   22 00018C5E GetStatusPorOidOle_Xml
+         15   23 00018ABE GetStatusPorOid_Xml
+         24   24 00018B4E GetStatusPorSerieNumeroByRef
+         50   25 00018CEE GetStatusPorSerieNumeroByRefOle
+         49   26 00018CDE GetStatusPorSerieNumeroOle_Xml
+         23   27 00018B3E GetStatusPorSerieNumero_Xml
+         18   28 00018AEE GetUrlConsultar
+         44   29 00018C8E GetUrlConsultarOle
+         19   2A 00018AFE GetUrlQrCode
+         45   2B 00018C9E GetUrlQrCodeOle
+         12   2C 00018A8E InutilizarByRef
+         38   2D 00018C2E InutilizarByRefOle
+         37   2E 00018C1E InutilizarOle_Xml
+         11   2F 00018A7E Inutilizar_Xml
+          5   30 00018A1E ObterValorCampo
+         31   31 00018BBE ObterValorCampoOle
+          4   32 00018A0E PingTesteWebService
+         30   33 00018BAE PingTesteWebServiceOle
+		 
+		 + MAIL - Ver PDF adicional para uso
+
+  Summary
+
+        2000 .reloc
+        2000 .rsrc
+        2000 .sdata
+       18000 .text

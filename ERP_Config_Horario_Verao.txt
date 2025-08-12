@@ -1,0 +1,6 @@
+HORARIO_VERAO=NAO
+
+-- Apenas configurar na primeira linha deste arquivo:
+--   HORARIO_VERAO=SIM ou
+--   HORARIO_VERAO=NAO
+
